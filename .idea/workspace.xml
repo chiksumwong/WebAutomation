@@ -2,25 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69d35608-1526-4acb-8dad-e695b9641dd6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/selenium_java_3_141.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/testng_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDriver/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/selenium-java-3.141.59/CHANGELOG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/selenium-java-3.141.59/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/selenium-java-3.141.59/NOTICE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/selenium-java-3.141.59/client-combined-3.141.59-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/selenium-java-3.141.59/client-combined-3.141.59.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/selenium-java-3.141.59/libs/byte-buddy-1.8.15.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/selenium-java-3.141.59/libs/commons-exec-1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/selenium-java-3.141.59/libs/guava-25.0-jre.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/selenium-java-3.141.59/libs/okhttp-3.11.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/selenium-java-3.141.59/libs/okio-1.14.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/testng-7.0/testng-7.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WebAutomation/DictionaryTestCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WebAutomation/FirstTestCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_25_0_jre.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_14_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/selenium_java_3_141.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/testng_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebAutomation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/WebAutomation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-java-3.141.59/CHANGELOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-java-3.141.59/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-java-3.141.59/NOTICE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-java-3.141.59/client-combined-3.141.59-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-java-3.141.59/client-combined-3.141.59.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-java-3.141.59/libs/byte-buddy-1.8.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-java-3.141.59/libs/commons-exec-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-java-3.141.59/libs/guava-25.0-jre.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-java-3.141.59/libs/okhttp-3.11.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-java-3.141.59/libs/okio-1.14.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/testng-7.0/testng-7.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WebAutomation/DictionaryTestCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WebAutomation/FirstTestCase.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,10 +70,10 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/testng-7.0/testng-7.0.0.jar!/" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/testng-7.0/testng-7.0.0.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
@@ -64,50 +89,16 @@
     </option>
   </component>
   <component name="RunManager" selected="TestNG.DictionaryTestCase">
-    <configuration name="DictionaryTestCase (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DictionaryTestCase" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WebAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WebAutomation.*" />
+          <option name="PATTERN" value="DicitionaryAutomation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="WebAutomation" />
-      <option name="MAIN_CLASS_NAME" value="WebAutomation.DictionaryTestCase" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DictionaryTestCase (2)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="WebAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="WebAutomation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="WebAutomation" />
-      <option name="MAIN_CLASS_NAME" value="WebAutomation.DictionaryTestCase" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DictionaryTestCase (3)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="WebAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="WebAutomation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="WebAutomation" />
-      <option name="MAIN_CLASS_NAME" value="WebAutomation.DictionaryTestCase" />
+      <option name="MAIN_CLASS_NAME" value="DicitionaryAutomation.DictionaryTestCase" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -119,12 +110,46 @@
       <module name="WebAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WebAutomation.*" />
+          <option name="PATTERN" value="DicitionaryAutomation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="WebAutomation" />
-      <option name="MAIN_CLASS_NAME" value="WebAutomation.DictionaryTestCase" />
+      <option name="MAIN_CLASS_NAME" value="DicitionaryAutomation.DictionaryTestCase" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DictionaryTestCase" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DicitionaryAutomation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="WebAutomation" />
+      <option name="MAIN_CLASS_NAME" value="DicitionaryAutomation.DictionaryTestCase" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DictionaryTestCase" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DicitionaryAutomation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="WebAutomation" />
+      <option name="MAIN_CLASS_NAME" value="DicitionaryAutomation.DictionaryTestCase" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -136,12 +161,12 @@
       <module name="WebAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WebAutomation.*" />
+          <option name="PATTERN" value="DicitionaryAutomation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="WebAutomation" />
-      <option name="MAIN_CLASS_NAME" value="WebAutomation.DictionaryTestCase" />
+      <option name="MAIN_CLASS_NAME" value="DicitionaryAutomation.DictionaryTestCase" />
       <option name="METHOD_NAME" value="testDictionaryTestCase" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
