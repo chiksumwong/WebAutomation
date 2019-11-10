@@ -1,7 +1,7 @@
 <suite name="Web Automation">
     <test name="Start Testing">
         <classes>
-            <class name="WebAutomation.Main" />
+            <class name="WebAutomation.TestCase" />
         </classes>
     </test>
 

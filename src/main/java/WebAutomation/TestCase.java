@@ -8,7 +8,7 @@ public class TestCase {
     protected WebDriver driver;
 
     public void setUp(){
-        System.setProperty("webdriver.chrome.driver", "WebDriver/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src/main/resources/WebDriver/chromedriver.exe");
         driver = new ChromeDriver();
     }
 
