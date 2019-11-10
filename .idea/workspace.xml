@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69d35608-1526-4acb-8dad-e695b9641dd6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/selenium_java_3_141.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/testng_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDriver/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/selenium-java-3.141.59/CHANGELOG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/selenium-java-3.141.59/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/selenium-java-3.141.59/NOTICE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/selenium-java-3.141.59/client-combined-3.141.59-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/selenium-java-3.141.59/client-combined-3.141.59.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/selenium-java-3.141.59/libs/byte-buddy-1.8.15.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/selenium-java-3.141.59/libs/commons-exec-1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/selenium-java-3.141.59/libs/guava-25.0-jre.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/selenium-java-3.141.59/libs/okhttp-3.11.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/selenium-java-3.141.59/libs/okio-1.14.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/testng-7.0/testng-7.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WebAutomation/DictionaryTestCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WebAutomation/FirstTestCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAutomation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/WebAutomation.iml" afterDir="false" />
-    </list>
+    <list default="true" id="7d8fc5e4-77bb-4ba8-8340-cb2e3fd29cbc" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,21 +15,16 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
-  <component name="ProjectId" id="1QXJQg3Et5vjYMAgRg19WXsuGoX" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="1TQNDGw4zGlZqXM6UxFFU0inlAq" />
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/testng-7.0/testng-7.0.0.jar!/" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Script" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -63,17 +38,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.DictionaryTestCase">
-    <configuration name="DictionaryTestCase (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.DictionaryCrawlerTest">
+    <configuration name="DictionaryCrawler" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WebAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WebAutomation.*" />
+          <option name="PATTERN" value="DictionaryCrawling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="WebAutomation" />
-      <option name="MAIN_CLASS_NAME" value="WebAutomation.DictionaryTestCase" />
+      <option name="PACKAGE_NAME" value="DictionaryCrawling" />
+      <option name="MAIN_CLASS_NAME" value="DictionaryCrawling.DictionaryCrawler" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -81,69 +56,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DictionaryTestCase (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DictionaryCrawlerTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WebAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WebAutomation.*" />
+          <option name="PATTERN" value="DictionaryCrawling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="WebAutomation" />
-      <option name="MAIN_CLASS_NAME" value="WebAutomation.DictionaryTestCase" />
+      <option name="PACKAGE_NAME" value="DictionaryCrawling" />
+      <option name="MAIN_CLASS_NAME" value="DictionaryCrawling.DictionaryCrawlerTest" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DictionaryTestCase (3)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="WebAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="WebAutomation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="WebAutomation" />
-      <option name="MAIN_CLASS_NAME" value="WebAutomation.DictionaryTestCase" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DictionaryTestCase" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="WebAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="WebAutomation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="WebAutomation" />
-      <option name="MAIN_CLASS_NAME" value="WebAutomation.DictionaryTestCase" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DictionaryTestCase.testDictionaryTestCase" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="WebAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="WebAutomation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="WebAutomation" />
-      <option name="MAIN_CLASS_NAME" value="WebAutomation.DictionaryTestCase" />
-      <option name="METHOD_NAME" value="testDictionaryTestCase" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -152,11 +75,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.DictionaryTestCase" />
-        <item itemvalue="TestNG.DictionaryTestCase (3)" />
-        <item itemvalue="TestNG.DictionaryTestCase (2)" />
-        <item itemvalue="TestNG.DictionaryTestCase (1)" />
-        <item itemvalue="TestNG.DictionaryTestCase.testDictionaryTestCase" />
+        <item itemvalue="TestNG.DictionaryCrawlerTest" />
+        <item itemvalue="TestNG.DictionaryCrawler" />
       </list>
     </recent_temporary>
   </component>
@@ -165,28 +85,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="69d35608-1526-4acb-8dad-e695b9641dd6" name="Default Changelist" comment="" />
-      <created>1567910992923</created>
+      <changelist id="7d8fc5e4-77bb-4ba8-8340-cb2e3fd29cbc" name="Default Changelist" comment="" />
+      <created>1573388237503</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1567910992923</updated>
+      <updated>1573388237503</updated>
     </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
