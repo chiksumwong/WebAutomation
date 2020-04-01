@@ -3,11 +3,14 @@ package DictionaryCrawling;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.io.*;
 import java.util.LinkedList;
+
+import static java.lang.Thread.sleep;
 
 public class DictionaryCrawlerTest {
 
@@ -15,8 +18,10 @@ public class DictionaryCrawlerTest {
 
     @BeforeTest
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "src/main/resources/WebDriver/chromedriver.exe");
-        driver = new ChromeDriver();
+//        System.setProperty("webdriver.chrome.driver", "src/main/resources/WebDriver/chromedriver.exe");
+        System.setProperty("webdriver.gecko.driver", "src/main/resources/WebDriver/geckodriver.exe");
+//        driver = new ChromeDriver();
+        driver = new FirefoxDriver();
     }
 
     @Test
@@ -45,6 +50,7 @@ public class DictionaryCrawlerTest {
                     //Search
                     driver.findElement(By.id("searchword")).sendKeys(words.get(i));
                     driver.findElement(By.xpath("//*[@id=\"header\"]/div[2]/div/form/div[1]/div[3]/span/button[2]")).click();
+                    sleep(1000);
 
                     String type = driver.findElement(By.xpath("//*[@id=\"page-content\"]/div[2]/div[4]/div/div/div/div[2]/div[2]/span")).getText();
                     String engMean = driver.findElement(By.xpath("//*[@id=\"page-content\"]/div[2]/div[4]/div/div/div/div[3]/div[1]/div[2]/div[1]/div[2]/div")).getText();
