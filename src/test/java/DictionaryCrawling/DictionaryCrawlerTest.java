@@ -29,6 +29,8 @@ public class DictionaryCrawlerTest {
         FileReader fr = new FileReader("src/main/resources/InputFiles/InputFile1.txt");
         BufferedReader br = new BufferedReader(fr);
 
+        BufferedWriter writer = new BufferedWriter(new FileWriter("output.txt"));
+
         LinkedList<String> words = new LinkedList<String>();
         String line;
         while((line = br.readLine()) != null)
@@ -40,12 +42,12 @@ public class DictionaryCrawlerTest {
             }
         }
         fr.close();
-
         System.out.println(words);
 
             for (int i=0; i<words.size(); i++){
                 System.out.print(words.get(i));
                 try {
+
                     driver.get("https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/");
                     //Search
                     driver.findElement(By.id("searchword")).sendKeys(words.get(i));
@@ -63,12 +65,17 @@ public class DictionaryCrawlerTest {
 
                     System.out.println(": [" + type + "] " + engMean + ", " + chinMean);
 
+                    String text = words.get(i) + ": [" + type + "] " + engMean + ", " + chinMean;
+                    writer.write(text);
+                    writer.newLine();
+                    writer.flush();
+
                     driver.navigate().back();
                 }catch (Exception e){
                     System.out.println("");
                 }
             }
-
+        writer.close();
 
     }
 
